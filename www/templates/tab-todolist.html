@@ -1,0 +1,16 @@
+<ion-view view-title="Todo List">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="td in todos" type="item-text-wrap" ng-click="todoSelect(td)">
+                <img ng-src="{{td.face}}">
+                <h2>{{td.title}}</h2>
+                <p>{{td.description}}</p>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+
+                <ion-option-button class="button-assertive" ng-click="remove(chat)">
+                    Delete
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

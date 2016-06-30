@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Mac/Repositories/todo-ionic-app/www/lib/ionic/js/ionic.min.js",
+        "/Users/Mac/Repositories/todo-ionic-app/www/lib/ionic/js/ionic.js",
+        "/Users/Mac/Repositories/todo-ionic-app/www/js/controllers.js",
+        "/Users/Mac/Repositories/todo-ionic-app/www/js/services.js"
+    ]
+}
